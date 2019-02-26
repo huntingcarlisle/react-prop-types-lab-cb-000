@@ -22,7 +22,7 @@ Product.defaultProps = {
 };
 
 Product.propTypes = {
-  name: PropTypes.string,
+  name: PropTypes.string
   // producer: PropTypes.string,
   // hasWatermark: PropTypes.bool
 };
