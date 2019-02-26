@@ -1,7 +1,7 @@
 // Code Product Component Here
-import React from 'react'
-import ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 
 export default class Product extends React.Component {
   render() {
