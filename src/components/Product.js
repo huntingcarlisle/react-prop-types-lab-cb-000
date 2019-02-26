@@ -22,5 +22,5 @@ Product.defaultProps = {
 };
 
 Product.propTypes = {
-  name: 
+  name: propTypes.string.isRequired
 };
