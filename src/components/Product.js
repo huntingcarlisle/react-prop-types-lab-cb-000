@@ -12,7 +12,10 @@ export default class Product extends React.Component {
         <p>Color: {this.props.color}<p>
         <p>Weight: {this.props.weight}<p>
       </div>
-      
       )
   }
+}
+
+Product.defaultProps = {
+  hasWatermark: false,
 }
