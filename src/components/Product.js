@@ -7,7 +7,7 @@ export default class Product extends React.Component {
     return (
       <div className = 'product'>
         <h2>{this.props.name}</h2>
-        
+        <p>Producer: {this.props.producer}<p>
       </div>
       
       )
