@@ -21,4 +21,6 @@ Product.defaultProps = {
   hasWatermark: false,
 };
 
-Product.propTypes = {};
+Product.propTypes = {
+  name: 
+};
