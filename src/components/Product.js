@@ -4,6 +4,12 @@ import ReactDOM from 'react-dom'
 
 export default class Product extends React.Component {
   render() {
-    return ()
+    return (
+      <div className = 'product'>
+        <h2>{this.props.name}</h2>
+        
+      </div>
+      
+      )
   }
 }
